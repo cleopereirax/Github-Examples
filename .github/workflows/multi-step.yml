@@ -7,6 +7,6 @@ jobs:
    runs-on: ubuntu-latest
    steps:
     - name: This is test
-      run: echo "This is test run ${date}"
+      run: echo "This is test run $(date)"
     - name: Adding another name space to print date
-      run: echo "This is to print the time and data again - ${date}"   
+      run: echo "This is to print the time and data again - $(date)"   
