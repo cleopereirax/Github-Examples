@@ -7,4 +7,4 @@ jobs:
    runs-on: ubuntu-latest
    steps:
     - name: This is test
-      run: echo "This is test run ${time}" 
+      run: echo "This is test run ${date}" 
