@@ -2,12 +2,9 @@ name: Multistep
 
 on: push
 
-
-jobs:
+jobs: 
   build:
    runs-on: ubuntu-latest
-  steps:
-        - name: Echo the current time
-          run: echo "The current server time is ${date}"
-        - name: Echoing the current time again
-          run: echo " The current time again is ${date}"  
+   steps:
+    - name: This is test
+      run: echo "This is test run ${time}" 
